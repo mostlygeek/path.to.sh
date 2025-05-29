@@ -16,6 +16,10 @@ I've been sharing a lot of [llama-swap](https://github.com/mostlygeek/llama-swap
 
 ## Usage 
 
+`./path.to dirname /path1 /path2 /pathN 'file-name-pattern*.gguf`
+
+Example: 
+
 ```sh
 $ ./path.to.sh models /mnt '*.gguf'
 1. Removing broken symlinks in 'to/models'
