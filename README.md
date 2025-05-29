@@ -14,11 +14,13 @@ I've been sharing a lot of [llama-swap](https://github.com/mostlygeek/llama-swap
 
 ## Install 
 
-1. `sudo mkdir -p /path/to`
-2. `sudo chown -R $USER:$USER /path`
-3. `cd /path`
-4. `curl -LO 'https://raw.githubusercontent.com/mostlygeek/path.to.sh/refs/heads/main/path.to.sh'`
-5. `chmod +x path.to.sh`
+```sh
+$ sudo mkdir -p /path/to
+$ sudo chown -R $USER:$USER /path
+$ cd /path
+$ curl -LO 'https://raw.githubusercontent.com/mostlygeek/path.to.sh/refs/heads/main/path.to.sh'
+$ chmod +x path.to.sh
+```
 
 ## Usage 
 
