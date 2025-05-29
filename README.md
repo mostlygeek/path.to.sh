@@ -2,6 +2,12 @@
 
 `path.to.sh` is a simple shell script to populate `/path/to/...` with symlinks to actual files. 
 
+It does only 3 things: 
+
+1. creates the `to/DIRECTORY` subdirectory
+2. Remove any broken symlinks
+3. Creates symlinks to files matching provided pattern. Duplicates are skipped. ¯\(ツ)/¯
+
 ## But why...?
 
 I've been sharing a lot of [llama-swap](https://github.com/mostlygeek/llama-swap) configuration examples. Manually replacing my local paths with `/path/to/file.gguf` is annoying. So why not just make the `/path/to/file.gguf` actually work? `#lazy`
@@ -56,3 +62,7 @@ lrwxrwxrwx 1 mostlygeek mostlygeek  53 May 29 12:00 qwen2.5-0.5b-instruct-q8_0.g
 lrwxrwxrwx 1 mostlygeek mostlygeek  54 May 29 12:00 Qwen2.5-32B-Instruct-Q4_K_M.gguf -> /mnt/ssd-extra/models/Qwen2.5-32B-Instruct-Q4_K_M.gguf
 ...
 ```
+
+## Contributions 
+
+Sorry ... nope. Feel free to fork and maintain your own. :) 
