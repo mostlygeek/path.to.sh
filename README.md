@@ -4,7 +4,7 @@
 
 ## But why...?
 
-I've been sharing a lot of [llama-swap](https://github.com/mostlygeek/llama-swap) configuration examples. Manually replacing my local paths with `/path/to/file.gguf` is annoying. So why not just make the `/path/to/file.gguf` a symlinks. 
+I've been sharing a lot of [llama-swap](https://github.com/mostlygeek/llama-swap) configuration examples. Manually replacing my local paths with `/path/to/file.gguf` is annoying. So why not just make the `/path/to/file.gguf` actually work. `#lazy`
 
 ## Install 
 
