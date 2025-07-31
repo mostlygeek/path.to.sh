@@ -65,6 +65,34 @@ lrwxrwxrwx 1 mostlygeek mostlygeek  54 May 29 12:00 Qwen2.5-32B-Instruct-Q4_K_M.
 ...
 ```
 
+## example update.sh
+
+This is my `/path/update.sh`. I use it to update several subdirectories under /path/to/...
+
+```sh
+#!/bin/sh
+
+echo "GGUF"
+echo "----"
+./path.to.sh models /mnt '*.gguf'
+./path.to.sh models /mnt '*.bin'
+
+echo
+echo
+
+echo "EXL2"
+echo "----"
+./path.to.sh models /mnt '*.exl2'
+
+echo
+echo
+
+echo "LLAMA-SERVER"
+echo "------------"
+./path.to.sh llama-server /mnt/nvme/llama-server '*-llama-server-*'
+./path.to.sh llama-server /mnt/nvme/llama-server 'whisper-server-*'
+```
+
 ## Contributions 
 
 Sorry ... nope. Feel free to fork and maintain your own. :) 
